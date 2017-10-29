@@ -6,8 +6,18 @@
     <string name="more_link">
         <a href="http://youtu.be/zHW5LRaRVUQ">http://youtu.be/zHW5LRaRVUQ</a>
     </string>
-    <string name="title_activity_about">AboutActivity</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_about">Who are we?</string>
+    <string name="title_karo">Karo</string>
+    <string name="title_zosia">Zosia</string>
+    <string name="title_aga">Aga</string>
+
+    <string name="about_karo">Karo jest super. Lubi podróże i kaktusy. Kolekcjonuje naklejki i pisze listy. </string>
+    <string name="about_zosia">Zosia jest ekstra. Lubi taniec i sklepy papiernicze. Jej ulubione jedzenie to pierogi.</string>
+    <string name="about_aga">Agusia jest odlotowa. Lubi programowanie i zdrowe jedzenie. Jej ulubiony pisarz to Herbert(?).</string>
+
+    <string name="have_you">Have you eaten meat today?</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="about_us">About us</string>
+    <string name="more">More</string>
 </resources>

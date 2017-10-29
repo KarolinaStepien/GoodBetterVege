@@ -9,15 +9,22 @@
         tools:context="com.app.miszkur.goodbettervege.MainActivity">
 
     <TextView
-            android:text="Have you eaten meat today?"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView" android:layout_marginRight="8dp" app:layout_constraintRight_toRightOf="parent"
-            android:layout_marginLeft="8dp" app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="8dp" android:textSize="36sp"
-            android:fontFamily="casual" android:textColor="#ffffff" android:textAlignment="center"/>
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="casual"
+        android:text="@string/have_you"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="36sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
     <Button
-            android:text="YES"
+            android:text="@string/yes"
             android:background="@android:color/transparent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/button_tak"
@@ -26,7 +33,7 @@
             android:fontFamily="casual" android:textSize="24sp" android:textColorHighlight="#ffffff"
             android:textColor="#ffffff"/>
     <Button
-            android:text="NO"
+            android:text="@string/no"
             android:background="@android:color/transparent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/button_nie"
@@ -56,7 +63,7 @@
             android:visibility="visible" android:fontFamily="casual"/>
     <Button
             android:background="@android:color/transparent"
-            android:text="About us"
+            android:text="@string/about_us"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/about_us"
@@ -65,7 +72,7 @@
             android:fontFamily="casual" android:textSize="18sp" android:textColor="#ffffff"/>
     <Button
             android:background="@android:color/transparent"
-            android:text="More"
+            android:text="@string/more"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/more"
             app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="8dp"
